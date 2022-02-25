@@ -58,6 +58,47 @@
     #banner .banner-slider .banner-item h2{
         font-size: 48px;
     }
+
+    /* banner css ends */
+    #about{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #about .abt-text p{
+        padding: 0;
+    }
+
+    #about .abt-video {
+        margin-top: 20px;
+    }
+
+    /* about ends */
+    
+    #team{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /* team ends */
+    #funfact .fun-item{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    /* funfact ends */
+    
+    #routine .nav-tabs{
+        flex-direction: column;
+    }
+
+    #routine .nav-tabs .nav-item{
+        width: 100%;
+    }
+
+    #routine .routine-holder ul li{
+        width: 50%;
+    }
+
+    /* routine ends */
 }
 /*===================== 
     extra small device
