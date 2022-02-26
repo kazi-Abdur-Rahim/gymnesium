@@ -70,8 +70,20 @@ $(document).ready(function(){
                     infinite:true,
                 }
                 
-            },{
-                breakpoint:578,
+            },
+            {
+                breakpoint:768,
+                settings:{
+                    slidesToShow:3,
+                    slidesToScroll:1,
+                    dots:false,
+                    arrows:false,
+                    infinite:true,
+                }
+                
+            },
+            {
+                breakpoint:576,
                 settings:{
                     slidesToShow:1,
                     slidesToScroll:1,
