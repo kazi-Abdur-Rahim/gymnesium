@@ -2,40 +2,47 @@
     extra small device
 ======================*/
 @media (max-width:575px){
-   .navbar{
-       background-color: rgba(226, 62, 56, 0.5);
-       top: 0;
-   }
-
-    .navbar .navbar-brand{
-        position: static;
-        transform: skewX(-0deg);
-        padding: 0 !important;
+    .navbar{
+        background-color: #353535;
+        top: 0;
     }
-
-    .navbar .navbar-brand img{
-        transform: skewX(-0deg);
-    }
-
-    .navbar-light .navbar-toggler{
-        border-color: #fff !important;
-    }
-
-    .navbar-toggler span{
-        color: #fff;
-    }
-    .navbar .navbar-nav {
-        background: #fff;
-    }
-
-    .navbar .navbar-nav .nav-item .nav-link{
-        color: #353535 !important;
-        text-align: center;
-    }
-
-    .navbar .navbar-nav .nav-item .nav-link::after{
-        width: 100%;
-    }
+    
+     .navbar .navbar-brand{
+         position: static;
+         transform: skewX(-0deg);
+         padding: 0 !important;
+         background-color: transparent;
+     }
+    
+     .navbar .navbar-brand img{
+         transform: skewX(-0deg);
+     }
+    
+     .navbar-light .navbar-toggler{
+         border-color: #fff !important;
+     }
+    
+     .navbar-toggler span{
+         color: #f1f1f1;
+     }
+     .navbar .navbar-nav {
+         background: #fff;
+     }
+    
+     .navbar .navbar-nav .nav-item .nav-link{
+         color: #353535 !important;
+         text-align: center;
+     }
+    
+     .navbar .navbar-nav .nav-item .nav-link::after{
+         width: 100%;
+         height: 0%;
+     }
+    
+     .navbar .navbar-nav .nav-item .nav-link:hover::after{
+         height: 100%;
+         background-color:rgba(226, 62, 56, 0.89) !important;
+     }
     /* nevbar css ends */
     #banner .bg1 h3::before,
     #banner .bg1 h3::after,
