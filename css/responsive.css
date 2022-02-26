@@ -33,14 +33,19 @@
          color: #353535 !important;
          text-align: center;
      }
+
+     .navbar .navbar-nav .nav-item .nav-link:hover{
+         color: #ffffff !important;
+     }
     
      .navbar .navbar-nav .nav-item .nav-link::after{
-         width: 100%;
-         height: 0%;
+         width: 0%;
+         height: 50%;
      }
     
      .navbar .navbar-nav .nav-item .nav-link:hover::after{
          height: 100%;
+         width: 100%;
          background-color:rgba(226, 62, 56, 0.89) !important;
      }
     /* nevbar css ends */
@@ -106,6 +111,17 @@
     }
 
     /* routine ends */
+    footer .footer-logo img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer .footer-main h4:first-of-type {
+        margin-bottom: 30px !important;
+        margin-top: 30px;
+    }
+    
+     /* footer ends */
 }
 /*===================== 
     extra small device
@@ -146,6 +162,10 @@
          color: #353535 !important;
          text-align: center;
      }
+
+     .navbar .navbar-nav .nav-item .nav-link:hover{
+        color: #ffffff !important;
+    }
     
      .navbar .navbar-nav .nav-item .nav-link::after{
          width: 100%;
