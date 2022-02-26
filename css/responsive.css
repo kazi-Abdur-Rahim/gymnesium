@@ -1,7 +1,7 @@
 /*===================== 
     extra small device
 ======================*/
-@media (max-width:575px){
+@media (max-width:576px){
     .navbar{
         background-color: #353535;
         top: 0;
@@ -130,7 +130,7 @@
 /*===================== 
     small device
 ======================*/
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 768px){
 
     .navbar{
         background-color: rgba(53, 53, 53, 0.5);
